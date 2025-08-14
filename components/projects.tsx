@@ -107,7 +107,7 @@ export function Projects() {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className={`project-card bg-gray-900/50 border transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg opacity-0 translate-y-8 scan-lines ${getColorClasses(project.color)}`}
+              className={`project-card bg-gray-900/50 border transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg translate-y-8 scan-lines ${getColorClasses(project.color)}`}
               style={{
                 animation: "none",
               }}
