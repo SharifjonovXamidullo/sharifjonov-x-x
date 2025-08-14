@@ -71,7 +71,7 @@ export function Contact() {
       color: "blue",
       hasButton: true,
       buttonText: "Get",
-      link: "41.107069, 72.075888",
+      link: "https://yandex.com/maps/?ll=72.075888%2C41.107069&z=16",
     },
     {
       label: "Phone",
