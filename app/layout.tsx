@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description:
     "Professional portfolio of Sharifjonov Xamidullo, cybersecurity student specializing in ethical hacking, network security, and system protection.",
   generator: "v0.dev",
+  icons: {
+    icon: "https://avatars.githubusercontent.com/u/203057243?v=4",
+  },
 }
 
 export default function RootLayout({
@@ -30,25 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased`}>
       <head>
-        {/* Favicon uchun */}
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="64x64"
-          href="https://avatars.githubusercontent.com/u/203057243?v=4"
-        />
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/203057243?v=4" />
       </head>
-      <body className="font-mono">
-        {/* Dumaloq shakldagi profil rasmi */}
-        <img
-          src="https://avatars.githubusercontent.com/u/203057243?v=4"
-          alt="Sharifjonov Xamidullo"
-          width={64}
-          height={64}
-          style={{ borderRadius: "50%", display: "block", margin: "1rem auto" }}
-        />
-        {children}
-      </body>
+      <body className="font-mono">{children}</body>
     </html>
   )
 }
