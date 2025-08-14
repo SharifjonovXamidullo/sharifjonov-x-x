@@ -40,13 +40,13 @@ export function Hero() {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8 flex justify-center">
           <div className="relative">
-            <div className="w-48 h-48 rounded-full border-2 border-green-400 p-1 animate-pulse">
+            <div className=" rounded-full border-2 border-green-400 p-1 animate-pulse">
               <div className="w-full h-full rounded-full overflow-hidden bg-gray-800 flex items-center justify-center">
                 <Image
                   src="https://avatars.githubusercontent.com/u/203057243?s=400&u=884645bef9040ce82e55c860ef254eaa16108ad7&v=4"
                   alt="Sharifjonov Xamidullo"
-                  width={200}
-                  height={200}
+                  width={300}
+                  height={300}
                   className="rounded-full object-cover"
                 />
               </div>
