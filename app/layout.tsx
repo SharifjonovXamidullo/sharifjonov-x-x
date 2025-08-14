@@ -29,7 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased`}>
-      <body className="font-mono">{children}</body>
+<header>
+<link rel="icon" class="js-site-favicon" type="image/png" href="https://avatars.githubusercontent.com/u/203057243?v=4&size=64">
+</header      
+<body className="font-mono">{children}</body>
     </html>
   )
 }
