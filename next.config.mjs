@@ -1,14 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+  output: 'export', // static export qilish
+  distDir: 'dist',  // build natijasini dist papkaga yozadi
+};
 
-export default nextConfig
+export default nextConfig;
