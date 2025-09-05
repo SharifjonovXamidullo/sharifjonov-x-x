@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  distDir: 'dist',
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
+  basePath: '/sharifjonov-x-x', // repo nomingizni kiriting
   trailingSlash: true,
-  basePath: "/my-contact-form", // bu repo nomi bilan bir xil bo'lishi kerak
 };
 
 export default nextConfig;
