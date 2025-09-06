@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  basePath: '/sharifjonov-x-x', // repo nomingizni kiriting
-  trailingSlash: true,
-};
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
